@@ -1,0 +1,40 @@
+
+
+
+#clone the project to local machine
+git clone <project link>
+
+#now get into the project dir
+cd <project dir>
+
+#now you will be on master branch
+git branch
+
+#checkout to develop branch
+git checkout develop
+
+#from here I wanted you to create you own branches
+git checkout -b "<lastname>"
+
+#now you are on you branch
+#here create you .py file with your firstinitial followed by lastername
+#eg: kguntuka.py 
+
+#once you are done with coding do git status
+git status
+
+#add those files showing in the status
+git add <file name>
+
+
+#do git commit
+git commit -m "some descriptive message"
+
+#push the code 
+git push origin <youbranch name which you created earlier with your last name>
+
+
+
+
+
+
