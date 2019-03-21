@@ -1,0 +1,35 @@
+
+'''
+
+w = write
+r = read
+a = append
+
+'''
+
+with open('/Users/krishnaguntuka/fifo.txt', 'w') as file_obj:
+    file_obj.write('Hello welcome \n')
+    file_obj.write("good morning \n")
+    file_obj.writelines("good afternoon")
+
+with open('/Users/krishnaguntuka/fifo.txt', 'w') as file_obj:
+    file_obj.write("krishna \n")
+    file_obj.write("manasa \n")
+
+'''
+with open('/Users/krishnaguntuka/fifo.txt', 'r') as file_obj:
+    line = file_obj.readline()
+    print(line)
+    line2 = file_obj.readline()
+    print(line2)
+'''
+
+
+with open('/Users/krishnaguntuka/fifo.txt', 'a') as file_obj:
+    file_obj.write("krishna \n")
+    file_obj.write("dheeraj \n")
+
+
+with open('/Users/krishnaguntuka/fifo.txt', 'wr') as file_obj:
+    file_obj.write("krishna \n")
+    file_obj.write("dheeraj \n")
